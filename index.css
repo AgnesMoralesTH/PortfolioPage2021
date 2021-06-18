@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: aquamarine;
+    height:80px;
+    width:100%;
+    display: flex;
+    
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right:40px;
+    list-style: none;
+}
+.sec1, .sec2, .sec3, .sec4, .sec5, .sec6{
+    height:500px;
+    background-color: beige;
+    padding-top: 10rem;
+    text-align: center;
+    border: cadetblue;
+}
+.projects{
+    display: flex;
+    margin: 0 auto;
+}
+.projectDiv{
+    height:200px;
+    width:200px;
+    background-color: cadetblue;
+}
