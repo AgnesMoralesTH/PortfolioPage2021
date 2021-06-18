@@ -2,13 +2,17 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Baloo Tammudu 2', cursive;
+    line-height: 1.5rem;
 }
 nav{
-    background-color: aquamarine;
+    background-color: black;
     height:80px;
     width:100%;
     display: flex;
-    
+    justify-content: space-evenly;
+    padding-top: 28px;
+    color:white;
 }
 ul{
     display:flex;
@@ -18,19 +22,69 @@ li{
     margin-right:40px;
     list-style: none;
 }
+.sec1{
+    background-color: white;
+    padding-top: 160px;
+}
+.div1{
+    height:400px;
+    width:800px;
+    display: flex;
+    margin: 0 auto;
+}
+.me{
+    height:400px;
+    width:400px;
+}
+.name1{
+    
+    height:400px;
+    width:400px;
+    padding-top: 150px;
+}
+.sec2{
+    background-color: rgb(189, 186, 186);
+    padding-top: 200px;
+    display: block;
+}
+.sec4{
+    background-color: rgb(189, 186, 186);
+}
+
 .sec1, .sec2, .sec3, .sec4, .sec5, .sec6{
-    height:500px;
-    background-color: beige;
-    padding-top: 10rem;
+    height:700px;
+    
+    
     text-align: center;
     border: cadetblue;
+}
+
+.namesDiv{
+    height:50px;
+    width:250px;
+    
 }
 .projects{
     display: flex;
     margin: 0 auto;
+    width:660px;
+    
+    
 }
 .projectDiv{
     height:200px;
     width:200px;
     background-color: cadetblue;
+    margin-right:20px;
+}
+.box6Text{
+    height:300px;
+    width:300px;
+    background-color: burlywood;
+}
+.boxes6{
+    display: flex;
+    height: 300px;
+    width:900px;
+    margin: 0 auto;
 }
